@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: webtrees\n"
 "Report-Msgid-Bugs-To: i18n@webtrees.net\n"
 "POT-Creation-Date: 2018-09-25 11:42+0100\n"
-"PO-Revision-Date: 2018-09-04 08:16+0000\n"
-"Last-Translator: Eyolf Østrem <eyolf@oestrem.com>\n"
+"PO-Revision-Date: 2018-11-09 20:10+0000\n"
+"Last-Translator: Jens Friismose <jelo2007@gmail.com>\n"
 "Language-Team: Danish <https://translate.webtrees.net/projects/webtrees/webtrees-1-7/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.10\n"
+"X-Generator: Weblate 2.11\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: translate;noop;plural:1,2\n"
@@ -711,7 +711,7 @@ msgstr "<b>Vigtig note:</b> Overførsels guiden er ikke i stand til at flytte me
 
 #: message.php:107
 msgid "<b>Please note:</b> Private information of living individuals will only be given to family relatives and close friends. You will be asked to verify your relationship before you will receive any private data. Sometimes information of dead individuals may also be private. If this is the case, it is because there is not enough information known about the individual to determine whether they are alive or not and we probably do not have more information on this individual.<br><br>Before asking a question, please verify that you are inquiring about the correct individual by checking dates, places, and close relatives. If you are submitting changes to the genealogy data, please include the sources where you obtained the data."
-msgstr "<b>Bemærk venligst:</b> Private informationer for nulevende personer udleveres kun til nære familiemedlemmer. Du vil blive bedt om at bekræfte din tilknytning før du kan modtage private data. Af og til kan data for døde personers også være private. Hvis det er tilfældet så skyldes det, at der ikke er tilstrækkelig information til at afgøre om personen er i live eller ej. Vi har derfor sandsynligvis ikke yderligere information på denne person.<br><br>Inden du spørger os om en person så kontroller lige at det er den rigtige person ved at dobbeltchecke datoer, steder og nære slægtninge. Hvis du sender ændringer til de genealogiske data, bedes du vedlægge de kilder, hvor du har fået oplysningerne fra."
+msgstr "<b>BemÃ¦rk venligst:</b> Private informationer for nulevende personer udleveres kun til nÃ¦re familiemedlemmer. Du vil blive bedt om at bekrÃ¦fte din tilknytning fÃ¸r du kan modtage private data. Af og til kan data for dÃ¸de personers ogsÃ¥ vÃ¦re private. Hvis det er tilfÃ¦ldet sÃ¥ skyldes det, at der ikke er tilstrÃ¦kkelig information til at afgÃ¸re om personen er i live eller ej. Vi har derfor sandsynligvis ikke yderligere information pÃ¥ denne person.<br><br>Inden du spÃ¸rger os om en person sÃ¥ kontroller lige at det er den rigtige person ved at dobbeltchecke datoer, steder og nÃ¦re slÃ¦gtninge. Hvis du sender Ã¦ndringer til de genealogiske data, bedes du vedlÃ¦gge de kilder, hvor du har fÃ¥et oplysningerne fra."
 
 #. I18N: default option in list of themes
 #: admin_trees_config.php:976 admin_users.php:488 edituser.php:278
@@ -10900,8 +10900,9 @@ msgid "Please enter some message text before sending."
 msgstr "Skriv en beskedtekst før den sendes."
 
 #: message.php:117
+#, fuzzy
 msgid "Please provide your email address so that we may contact you in response to this message. If you do not provide your email address we will not be able to respond to your inquiry. Your email address will not be used in any other way besides responding to this inquiry."
-msgstr "Indtast venligst din email-adresse så vi eventuelt kan besvare denne besked. Hvis du ikke indtaster en email-adresse vil det ikke være muligt at besvare din forespørgsel. Din email-adresse vil ikke blive brugt til andet et besvarelse af denne forespørgsel."
+msgstr "Indtast venligst din e-mailadresse sÃ¥ vi eventuelt kan besvare denne besked. Hvis du ikke indtaster en e-mailadresse vil det ikke vÃ¦re muligt at besvare din forespÃ¸rgsel. Din e-mailadresse vil ikke blive brugt til andet end at besvare denne forespÃ¸rgsel."
 
 #. I18N: a month in the French republican calendar
 #: app/Date/FrenchDate.php:92
@@ -15780,8 +15781,9 @@ msgid "When you add, edit, or delete information, the changes are not saved imme
 msgstr "Når du tilføjer, redigerer eller sletter information bliver disse ikke gemt med det samme. I stedet for opbevares de i et midlertidigt område. De nye informationer træder først i kraft når de er blevet kontrollleret og accepteret af administrator."
 
 #: message.php:132
+#, fuzzy
 msgid "When you send this message you will receive a copy sent via email to the address you provided."
-msgstr "Når du sender denne besked, vil du også modtage en kopi på den e-mail-adresse du har opgivet."
+msgstr "NÃ¥r du sender denne besked, vil du ogsÃ¥ modtage en kopi pÃ¥ den e-mail-adresse du har opgivet."
 
 #: admin_users.php:599
 msgid "Where a user is associated to an individual record in a family tree and has a role of member, editor, or moderator, you can prevent them from accessing the details of distant, living relations. You specify the number of relationship steps that the user is allowed to see."
