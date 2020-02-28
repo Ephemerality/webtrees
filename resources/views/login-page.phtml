@@ -55,9 +55,11 @@ use Fisharebest\Webtrees\View;
             </button>
 
             or (Facebook login is super broken, sorry!)
+			<!--
             <link rel="stylesheet" href="modules_v3/facebook/facebook.css?v=v1.0-beta.7" />
             <div id='fblogin' class="btn"></div>
             <script>window.onload = function() { $('#fblogin').load('module.php?mod=facebook&mod_action=fblogin'); }</script>
+			-->
 
             <a class="btn btn-link" href="<?= e(route(PasswordRequestPage::class, ['tree' => $tree instanceof Tree ? $tree->name() : null])) ?>">
                 <?= I18N::translate('Forgot password?') ?>
