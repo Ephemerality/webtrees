@@ -1,5 +1,6 @@
 /modules_v4/*
 !/modules_v4/example*
+.idea
 
 /public/mix-manifest.json
 /public/css/*.map
