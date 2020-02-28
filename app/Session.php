@@ -85,6 +85,7 @@ class Session
         } else {
             session_set_cookie_params(0, $path . '/', $domain, $secure, true);
         }
+        session_cache_limiter('none');
         session_start();
 
         // A new session? Prevent session fixation attacks by choosing a new session ID.
